@@ -24,20 +24,24 @@ body {
 
 /* unvisited link */
 a:link {
+    text-decoration: none;
     color: rgb(17, 0, 255);
   }
   
   /* visited link
         a:visited {
+            text-decoration: none;
             color: green;
         }
   */
   /* mouse over link */
   a:hover {
+    text-decoration: none;
     color: rgb(190, 0, 73);
   }
   
   /* selected link */
   a:active {
+    text-decoration: none;
     color: rgb(60, 56, 248);
   }
