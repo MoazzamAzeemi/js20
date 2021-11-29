@@ -7,8 +7,33 @@ body {
     min-height: 100vh;
     background: rgb(139, 152, 226);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
     overflow: hidden;    
 }
+
+.links {
+    text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(3, 0, 190);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(60, 56, 248);
+  }
