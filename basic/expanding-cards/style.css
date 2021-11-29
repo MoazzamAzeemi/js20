@@ -9,28 +9,32 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     height: 100vh;
     overflow: hidden;    
 }
 
 .links {
+    font-size: 30px;
     text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px 10px;
 }
 
 /* unvisited link */
 a:link {
-    color: red;
+    color: rgb(17, 0, 255);
   }
   
-  /* visited link */
-  a:visited {
-    color: green;
-  }
-  
+  /* visited link
+        a:visited {
+            color: green;
+        }
+  */
   /* mouse over link */
   a:hover {
-    color: rgb(3, 0, 190);
+    color: rgb(190, 0, 73);
   }
   
   /* selected link */
